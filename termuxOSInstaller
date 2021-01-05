@@ -1,0 +1,76 @@
+#!/bin/bash
+
+clear
+echo  "Files to Install :"
+echo "   _______________"
+echo "    Kali         "
+echo "    =============="
+echo "      Ubuntu       "
+echo "      =============="
+echo "        Debian       "
+echo "        =============="
+echo "          Arch Linux   "
+echo "          =============="
+echo "            Manjaro      "
+echo "            =============="
+echo "              Fedora       "
+echo "              =============="
+echo "                Void         "
+echo "                =============="
+echo "                  Alpine       "
+echo "                  ______________"
+
+sleep 4
+
+
+clear 
+package insttall
+ pkg update-y 
+ pkg installcurl proot tar -y 
+  
+    
+
+echo "Kali Linux Installing "
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh | bash 
+clear 
+echo "Kali Was established "
+
+echo "Ubuntu Installing "
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20.sh | bash 
+clear 
+echo "Ubuntu Was established "
+
+echo "Debian Installing "
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian.sh | bash 
+clear 
+echo "Debian Was established "
+
+echo "Arch Linux Installing "
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Arch/armhf/arch.sh | bash 
+clear 
+echo "Arch Linux Was established "
+
+echo "Manjaro Installing "
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Manjaro/manjaro.sh | bash 
+clear 
+echo "Manjaro Was established "
+
+echo "Fedora Was established 
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Fedora/fedora.sh | bash 
+clear 
+echo "Fedora Was established "
+
+echo "Void Was established 
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Void/void.sh | bash 
+clear 
+echo "Void Was established "
+
+echo "Alpine Installing "
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Alpine/alpine.sh | bash 
+clear 
+
+
+ 
+echo "INSTALLATION COMPLETED"
+echo "BECAUSE THE PROGRAMS ARE HIDDEN, YOUcANcONTROL WITH THEcOMMAND 'ls -la'
+echo " EXAMPLEcOMMAND : './start-kali.sh'
