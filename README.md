@@ -35,7 +35,7 @@ Daha sonra ise;
 git clone https://github.com/Ahmet-Special/termuxOSInstaller.git
 cd termuxOSInstaller
 chmod +x termuxOSInstaller
-./termuxOSInstaller
+bash termuxOSInstaller
 
 BİTTİ
 
