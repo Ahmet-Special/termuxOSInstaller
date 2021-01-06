@@ -22,6 +22,8 @@ DONE
 Example Command: ./start-kali.sh
 
 #######################################################################
+
+
 Bu program sizin için birden fazla linux işletim sistemini Termux'a kurar.
 Yapmanız gerekenler, Termux'u açmak ve şunları yazmak.
 
